@@ -32,7 +32,7 @@ public class AncientPlacesListFragment extends Fragment {
     private void displayPlacesList(View view) {
 
         RecyclerView places_rv = view.findViewById(R.id.places_list_rv);
-        List<Place> placesList = createSongsList();
+        List<Place> placesList = createPlacesList();
         PlacesListAdapter adapter = new PlacesListAdapter(placesList,getActivity());
         places_rv.setAdapter(adapter);
         places_rv.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -40,7 +40,7 @@ public class AncientPlacesListFragment extends Fragment {
     }
 
 
-    private List<Place> createSongsList() {
+    private List<Place> createPlacesList() {
 
         List<Place> placesList = new ArrayList<>();
 
