@@ -1,5 +1,8 @@
 package com.example.tourguideapp.adapter;
 
+import android.content.Context;
+
+import com.example.tourguideapp.R;
 import com.example.tourguideapp.fragment.AncientPlacesListFragment;
 import com.example.tourguideapp.fragment.MallsListFragment;
 import com.example.tourguideapp.fragment.NaturalPlacesListFragment;
@@ -13,13 +16,12 @@ import androidx.fragment.app.FragmentPagerAdapter;
 public class PlacesFragmentPagerAdapter extends FragmentPagerAdapter {
 
     final static int NUMBER_OF_FRAGMENT = 4;
+    private Context mContext ;
 
-    private String tabTitles[] = new String[] {"Ancient", "Food", " Natural", " Malls" };
-
-
-    public PlacesFragmentPagerAdapter(@NonNull FragmentManager fm) {
+    public PlacesFragmentPagerAdapter(@NonNull FragmentManager fm, Context mContext) {
         super(fm);
 
+        this.mContext = mContext;
     }
 
 
@@ -48,6 +50,9 @@ public class PlacesFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
+
+        String tabTitles[] = mContext.getResources().getStringArray(R.array.tabs);
+
         return tabTitles[position];
         
         

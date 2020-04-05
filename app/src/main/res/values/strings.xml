@@ -19,4 +19,13 @@
     <string name="the_globe">The Globe</string>
 
 
+    <string-array name="tabs">
+        <item>Ancient</item>
+        <item>Food</item>
+        <item>Natural</item>
+        <item>Malls</item>
+    </string-array>
+
+
+
 </resources>
