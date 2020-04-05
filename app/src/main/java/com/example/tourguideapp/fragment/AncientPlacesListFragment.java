@@ -45,7 +45,6 @@ public class AncientPlacesListFragment extends Fragment {
         List<Place> placesList = new ArrayList<>();
 
         placesList.add(new Place("Al Masmak",R.drawable.al_masmak,"Riyadh"));
-        placesList.add(new Place("Ushaiqer Heritage Village",R.drawable.ushaiqe_heritage_village,"Riyadh"));
         placesList.add(new Place("Madain Salih",R.drawable.madain_salih," Al-Ula"));
         placesList.add(new Place("Old Dir'aiyah",R.drawable.old_diraiyah,"Riyadh"));
 
