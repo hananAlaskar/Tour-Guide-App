@@ -44,11 +44,10 @@ public class MallsListFragment extends Fragment {
 
         List<Place> placesList = new ArrayList<>();
 
-        placesList.add(new Place("Riyadh Park Mall",R.drawable.riyadh_park,"Riyadh"));
-        placesList.add(new Place("Mall of Arabia",R.drawable.mall_of_arabia,"Jeddah"));
-        placesList.add(new Place("Panorama Mall",R.drawable.panorama_mall," Riyadh"));
-        placesList.add(new Place("Red Sea Mall",R.drawable.red_sea_mall,"Jeddah"));
-
+        placesList.add(new Place(getString(R.string.riyadh_park_mall),R.drawable.riyadh_park,getString(R.string.riyadh)));
+        placesList.add(new Place(getString(R.string.mall_of_arabia),R.drawable.mall_of_arabia,getString(R.string.jeddah)));
+        placesList.add(new Place(getString(R.string.panorama_mall),R.drawable.panorama_mall,getString(R.string.riyadh)));
+        placesList.add(new Place(getString(R.string.red_sea_mall),R.drawable.red_sea_mall,getString(R.string.jeddah)));
 
 
         return placesList;

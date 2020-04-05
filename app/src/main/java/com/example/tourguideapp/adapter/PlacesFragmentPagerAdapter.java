@@ -14,11 +14,12 @@ public class PlacesFragmentPagerAdapter extends FragmentPagerAdapter {
 
     final static int NUMBER_OF_FRAGMENT = 4;
 
-    private String tabTitles[] = new String[] { "Ancient", "Food", " Natural", " Malls" };
+    private String tabTitles[] = new String[] {"Ancient", "Food", " Natural", " Malls" };
 
 
     public PlacesFragmentPagerAdapter(@NonNull FragmentManager fm) {
         super(fm);
+
     }
 
 
@@ -48,5 +49,7 @@ public class PlacesFragmentPagerAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         return tabTitles[position];
+        
+        
     }
 }

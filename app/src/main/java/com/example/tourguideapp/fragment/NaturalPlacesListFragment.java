@@ -44,8 +44,8 @@ public class NaturalPlacesListFragment extends Fragment {
 
         List<Place> placesList = new ArrayList<>();
 
-        placesList.add(new Place("Al Bujairi Heritage Park",R.drawable.al_bujairi_heritage_park,"Riyadh"));
-        placesList.add(new Place("Al Qara Hill ",R.drawable.al_qara_hill_,"Al Hofuf"));
+        placesList.add(new Place(getString(R.string.al_bujairi_heritage_park),R.drawable.al_bujairi_heritage_park,getString(R.string.riyadh)));
+        placesList.add(new Place(getString(R.string.al_qara_hill),R.drawable.al_qara_hill_,getString(R.string.al_hofuf)));
 
 
 

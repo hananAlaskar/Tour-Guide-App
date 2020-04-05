@@ -43,10 +43,10 @@ public class RestaurantsListFragment extends Fragment {
 
         List<Place> placesList = new ArrayList<>();
 
-        placesList.add(new Place("Najd Village",R.drawable.najd_village,"Riyadh"));
-        placesList.add(new Place("Byblos ",R.drawable.byblos_,"Jeddah"));
-        placesList.add(new Place("Al Orjouan",R.drawable.al_orjouan,"Riyadh"));
-        placesList.add(new Place("The Globeh",R.drawable.the_globe,"Riyadh"));
+        placesList.add(new Place(getString(R.string.najd_village),R.drawable.najd_village,getString(R.string.riyadh)));
+        placesList.add(new Place(getString(R.string.byblos),R.drawable.byblos,getString(R.string.jeddah)));
+        placesList.add(new Place(getString(R.string.al_orjouan),R.drawable.al_orjouan,getString(R.string.riyadh)));
+        placesList.add(new Place(getString(R.string.the_globe),R.drawable.the_globe,getString(R.string.riyadh)));
 
 
 

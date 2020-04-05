@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Tour Guide App</string>
+    <string name="al_masmak">Al Masmak</string>
+    <string name="madain_salih">Madain Salih</string>
+    <string name="old_diraiyah">Old Dir\'aiyah</string>
+    <string name="riyadh">Riyadh</string>
+    <string name="al_ula">Al-Ula</string>
+    <string name="jeddah">Jeddah</string>
+    <string name="riyadh_park_mall">Riyadh Park Mall</string>
+    <string name="mall_of_arabia">Mall of Arabia</string>
+    <string name="panorama_mall">Panorama Mall</string>
+    <string name="red_sea_mall">Red Sea Mall</string>
+    <string name="al_hofuf">Al Hofuf</string>
+    <string name="al_qara_hill">Al Qara Hill</string>
+    <string name="al_bujairi_heritage_park">Al Bujairi Heritage Park</string>
+    <string name="najd_village">Najd Village</string>
+    <string name="byblos">Byblos</string>
+    <string name="al_orjouan">Al Orjouan</string>
+    <string name="the_globe">The Globe</string>
+
+
 </resources>
